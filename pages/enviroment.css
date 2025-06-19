@@ -1,0 +1,254 @@
+.enviment-page{
+background: radial-gradient(rgb(238, 238, 129), rgb(58, 107, 35)
+      );
+      height: 90vh;
+}
+/* .enviment-img{
+       position: absolute;
+  top: 4.2%;
+  left: 0;
+  width: 100%;
+  height: 40em;
+  color: rgb(245, 246, 243);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  background:rgba(232, 236, 9, 0.4) ;
+  box-sizing: border-box;
+} */
+.enviment-img #apar{
+    padding-top: 4em;
+    font-size: 37px;
+    font-weight: bold;
+    padding-left: 14em;
+    color: white;
+}
+
+#Evir{
+    height: 27em;
+    width: 50em;
+    margin-top: 2em;
+    margin-left: 23em;
+   border-radius: 5px;
+}
+.key-feature-bg{
+    background: radial-gradient(white,rgb(244, 254, 244));
+    height: 75em;
+}
+#keyh2{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+    padding-top: 3em;
+    padding-bottom: 10px;
+}
+.key-line{
+      height: 2px;
+  width: 8em;
+  background-color: #4b4f4b;
+  margin-left: 44em;
+  margin-top: 8px;
+}
+
+.key-feature-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 3rem 2rem;
+  background: #f9fff6;
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 18em;
+  margin-top: 2em;
+}
+
+.key-icon {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.circle-icon {
+  width: 120px;
+  height: 120px;
+  background-color: #2c7a1f;
+  color: white;
+  border-radius: 50%;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+#chainh2{
+  margin: 0 0 0.5rem;
+  color: #191a19;
+  font-size: 28px;
+  
+}
+
+#chainpar {
+  color: #636363;
+  line-height: 1.6;
+  font-size: 19px;
+}
+.men-image-bg{
+    background: radial-gradient(rgb(207, 236, 135),rgb(199, 241, 191));
+    height: 38em;
+}
+.men-image{
+ position: absolute;
+  top: 123em;
+  left: 15em;
+  width:35em;
+  height: 25em;
+  color: rgb(245, 246, 243);
+  padding: 4em;
+  background:rgba(10, 73, 94, 0.834) ;
+  box-sizing: border-box;
+  border-radius: 10%;
+}
+#evmen{
+    height: 30em;
+    width: 40em;
+    margin-left: 45em;
+    margin-top: 4em;
+    border-radius: 10px;
+}
+#lomenh1{
+    font-size: 40px;
+    text-align: center;
+}
+#locpara{
+    font-size: 18px;
+    padding-top: 2em;
+}
+#locrmbtn{
+    height: 3em;
+    width: 10em;
+    margin-left: 10em;
+    margin-top: 2em;
+    background: none;
+    border: 2px solid rgb(67, 248, 67);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+.facilities{
+    background: radial-gradient(white,rgb(231, 246, 231));
+    height: 53em;
+}
+#ourfach1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2em;
+    color: #514f4f;
+}
+.factcolor{
+    color: #2c7a1f;
+    font-size: 40px;
+}
+.facti-line{
+        height: 2px;
+  width: 5em;
+  background-color: #4b4f4b;
+  margin-left: 45em;
+  margin-top: 6px;
+}
+.facilities-product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-left: 10em;
+    margin-top: 3em;
+}
+.facilities-grib{
+   background: radial-gradient(white,rgb(240, 245, 228));
+   padding: 5em;
+  width: 25em;
+}
+.indust{
+    font-size: 3em;
+    margin-left: 2em;
+    color: #2c7a1f;
+}
+#manuh2{
+    padding-left: 3em;
+    padding-top: 10px;
+    color:rgb(3, 3, 72);
+}
+#manupar{
+    font-size: 16px;
+    color: #4b4f4b;
+    padding-left: 10px;
+}
+#manuh1{
+    padding-left: 2em;
+    padding-top: 10px;
+    color:rgb(3, 3, 72);
+}
+#manuh21{
+    /* padding-left: 2em; */
+    padding-top: 10px;
+    color:rgb(3, 3, 72);
+}
+#manupar2{
+    font-size: 16px;
+    color: #4b4f4b;
+    /* padding-left: 10px; */
+}
+
+
+.collection{
+  background: radial-gradient(white,rgb(231, 246, 231));
+  height: 50em;
+}
+.collection-grib{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-left: 10em;
+    padding-top: 3em;
+}
+#women{
+    height: 20em;
+    width: 37em;
+    border-radius: 5px;
+}
+#womenL{
+    width: 75em;
+    height: 20em;
+    border-radius: 5px;
+}
+.collection-bg{
+ position: absolute;
+  top: 210.5em;
+  left: 10em;
+   height: 20em;
+    width: 37em;
+  color: rgb(245, 246, 243);
+  padding: 4em;
+  background:rgba(10, 73, 94, 0.834) ;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.collection-bg2{
+ position: absolute;
+  top: 210.5em;
+  left: 48em;
+   height: 20em;
+    width: 37em;
+  color: rgb(245, 246, 243);
+  padding: 4em;
+  background:rgba(91, 106, 13, 0.834) ;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+#visionh2{
+    font-size: 45px;
+}
+#visipara{
+    font-size: 17px;
+    padding-top: 1.5em;
+}

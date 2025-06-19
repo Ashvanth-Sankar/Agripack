@@ -1,0 +1,286 @@
+.dairy-page{
+      background: radial-gradient(rgb(206, 203, 154), rgb(53, 126, 59)
+      );
+      height: 91vh;
+}
+#dpm{
+    height: 27em;
+    width: 50em;
+    margin-top: 2em;
+    margin-left: 20em;
+   border-radius: 5px;
+}
+
+.dairy-img{
+position: absolute;
+  top: 4.2%;
+  left: 0;
+  width: 100%;
+  height: 40em;
+  color: rgb(245, 246, 243);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  background:rgba(72, 73, 4, 0.4) ;
+  box-sizing: border-box;
+}
+.dairy-img #fpar{
+    padding-top: 4em;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 9em;
+}
+.dairys-sal{
+    background: radial-gradient(white,rgb(214, 232, 235));
+    height: 23em;
+}
+#darh2{
+    padding-top: 3em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(8, 58, 76);
+}
+.dairy-sal-center{
+    display: grid;
+    grid-template-columns: repeat(5,0fr);
+    margin-left: 22em;
+}
+.dairy-circle{
+    height: 9em;
+    width: 9em;
+    border-radius: 50%;
+    border: 1px solid rgb(104, 136, 142); 
+   margin: 15px;
+     transition: transform 0.5s ease;
+}
+.dairy-circle:hover{
+    cursor: pointer;
+      transform: scale(1.04);
+}
+#Mpimg{
+   height: 9em;
+    width: 9em;
+     border-radius: 50%;
+      padding: 2px;
+}
+#cirpar{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 2em;
+    color: rgb(2, 40, 69);
+}
+.dairy-lists{
+    background: radial-gradient(white,rgb(208, 236, 242));
+    height: 340vh;
+}
+#lispar{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(4, 61, 115);
+    padding-top: 2em;
+    text-align: center;
+}
+.dairy-center{
+       display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 10px; 
+    justify-items: center;
+     margin-left:8em ;
+}
+#small{
+    height: 13em;
+    width: 13em;
+}
+
+
+
+.dcard {
+  position: relative;
+  padding: 38px;
+  border: 1px solid #ddd;       /*#ddd/*/
+  border-radius: 8px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  margin: 10px;
+}
+.dairy-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; 
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.search-container {
+  position: relative;
+  width: 40em;
+}
+
+
+.dshop-hearts {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; 
+  margin-left: 3em;
+}
+
+ 
+/* .Dshop-card, */
+.dshop-heart {
+  position: relative;
+  background: none;
+  /* background-color: blue; */
+  border: none; 
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: inherit;
+}
+
+
+/* .Dcart-badge, */
+.favd-badge {
+  position: absolute;
+  top: -10px;
+  right: -8px;
+  background: green;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.65rem;
+  line-height: 1;
+  pointer-events: none;
+}
+
+
+.dheart-overlay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  transition: transform 0.2s ease;
+}
+.dheart-overlay:hover { 
+  transform: scale(1.2);
+ }
+ #dabtn{
+  height: 2em;
+  width: 6em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: radial-gradient(orange,yellow);
+   margin-top: 8px;
+}
+#dabtn:hover{
+  cursor: pointer;
+  background: radial-gradient(rgb(154, 249, 2),rgb(88, 235, 19));
+}
+.dairy-last-text{
+padding-left: 2em;
+  background: radial-gradient(white,rgb(222, 244, 244));
+  height: 28em;
+}
+#daih1{
+  font-size: 25px;
+  font-weight: bold;
+   padding-top: 1em;
+   color: rgb(2, 27, 96);
+}
+#daip1{
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 1em;
+ color: rgb(2, 68, 74);
+}
+
+#dot2{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  Color:rgb(2, 68, 74) ;
+  border-radius: 50%;
+}
+.cow-text{
+  background: radial-gradient(white,rgb(225, 239, 239));
+  height: 50em;
+}
+#cofin{
+  text-align: center;
+  padding-left: 1em;
+  padding-top: 2em;
+ font-size: 30px;
+ font-weight: bold;
+ color: rgb(3, 72, 65);
+}
+#cow{
+  height: 30em;
+  width: 30em;
+  margin-left: 35em;
+  margin-top: 3em;
+}
+/* #coimg2{
+  height: 10em;
+  width: 10em;
+}
+
+.cowlogo2{
+position: absolute;
+  top: 230.4em;
+  left: 28em;
+  width: 42.4%;
+  height: 40em;
+  color: rgb(245, 246, 243);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  background:rgba(196, 229, 234, 0.4) ;
+  box-sizing: border-box;
+} */
+
+
+#coimg2,
+.milk-img {
+  height: 10em;
+  width: 10em;
+  position: relative;
+  transition: transform 0.3s ease;
+  margin-left: -4em;
+   /* overlap them slightly */
+   margin-top: 35em;
+}
+
+.cowlogo2 {
+  position: absolute;
+  top: 230.8em;
+  left: 35em;
+  width: 31.8%;
+  height: 30em;
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  background: rgba(196, 229, 234, 0.4);
+  box-sizing: border-box;
+}
+
+/* Optional hover effect for a model showcase */
+.milk-img:hover {
+  transform: scale(1.1);
+  z-index: 10 !important; /* bring to front on hover */
+}

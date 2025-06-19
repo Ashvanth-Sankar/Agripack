@@ -1,0 +1,208 @@
+.form-page{
+      background: radial-gradient(rgb(206, 203, 154), rgb(23, 75, 2)
+      );
+      height: 91vh;
+}
+#Sef{
+    height: 25em;
+    width: 50em;
+    margin-top: 3em;
+    margin-left: 20em;
+   border-radius: 5px;
+}
+
+.form-img{
+position: absolute;
+  top: 4.2%;
+  left: 0;
+  width: 100%;
+  height: 40em;
+  color: rgb(245, 246, 243);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  background:rgba(72, 73, 4, 0.4) ;
+  box-sizing: border-box;
+}
+.form-img #fpar{
+    padding-top: 4em;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 9em;
+}
+.form-item{
+    background: radial-gradient(rgb(236, 236, 97), rgb(248, 249, 248)
+      );
+      height: 515vh;
+}
+.form-item #fhead{
+    padding-top: 3em;
+text-align: center;
+font-size: 32px;
+font-weight: bold;
+}
+.form-item-center{
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 10px; 
+    justify-items: center;
+     margin-left:1em ;
+}
+
+
+#smal{
+    height: 18em;
+    width: 20em;
+}
+.form-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; 
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.search-container {
+  position: relative;
+  width: 40em;
+}
+
+#foinp {
+width: 40em;
+  height: 3em;
+  padding: 10px 40px 10px 10px; 
+  border: none;
+  border-radius: 5px;
+     margin-left: 10em; 
+  outline: none;
+  background: radial-gradient(white, rgb(192, 192, 124));
+}
+#foser {
+  position: absolute;
+  top: 117%;
+  left: 52em;
+  transform: translateY(-40%);
+  cursor: pointer;
+  color: #0f0909;
+  font-size: 1.2rem;
+}
+ 
+.shop-cards,
+.shop-hearts {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; 
+}
+
+ 
+.shop-card,
+.shop-heart {
+  position: relative;
+  background: none;
+  border: none; 
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: inherit;
+}
+
+
+.cart-badge,
+.fav-badge {
+  position: absolute;
+  top: -10px;
+  right: -8px;
+  background: green;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.65rem;
+  line-height: 1;
+  pointer-events: none;
+}
+
+
+.heart-overlay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  transition: transform 0.2s ease;
+}
+.heart-overlay:hover { 
+  transform: scale(1.2);
+ }
+
+.form-rice1 {
+  position: relative;
+  padding: 12px;
+  border: 1px solid #ddd;       /*#ddd/*/
+  border-radius: 8px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  margin: 10px;
+}
+#foname{
+  font-size: 20px;
+  font-weight: bold;
+  color: #343131;
+  padding: 10px;
+ 
+}
+#pric{
+  padding-top: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#star{
+ color: green;
+}
+#adbtn{
+  height: 2em;
+  width: 6em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: radial-gradient(orange,yellow);
+   margin-top: 8px;
+}
+#adbtn:hover{
+  cursor: pointer;
+  background: radial-gradient(rgb(154, 249, 2),rgb(88, 235, 19));
+}
+.form-last-text{
+padding-left: 2em;
+}
+#foh1{
+  font-size: 25px;
+  font-weight: bold;
+   padding-top: 1em;
+   color: rgb(2, 27, 96);
+}
+#forp1{
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 1em;
+ color: rgb(2, 68, 74);
+}
+
+#dot{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  Color:rgb(2, 68, 74) ;
+  border-radius: 50%;
+}
+ 

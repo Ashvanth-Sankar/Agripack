@@ -1,0 +1,280 @@
+.dairy-page{
+      background: radial-gradient(rgb(206, 203, 154), rgb(53, 126, 59)
+      );
+      height: 91vh;
+}
+#dpm{
+    height: 28em;
+    width: 50em;
+    margin-top: 2em;
+    margin-left: 20em;
+   border-radius: 5px;
+}
+
+.dairy-img{
+position: absolute;
+  top: 4.2%;
+  left: 0;
+  width: 100%;
+  height: 40em;
+  color: rgb(245, 246, 243);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  background:rgba(239, 248, 163, 0.4) ;
+  box-sizing: border-box;
+}
+.dairy-img #fpar{
+    padding-top: 4em;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 9em;
+}
+
+
+/* ----------------- */
+.doc-context-box {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  height: 43em;
+  padding-top: 5em;
+  /* padding-left: 30em; */
+  /* text-align: center; */
+}
+#abouth2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1a1e7a;
+    padding-left: 22em;
+}
+.doc-context-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-left: 5em;
+  margin-top: 3em;
+}
+
+.doc-grid-img img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.doc-grid-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+#grih2 {
+  color: #2b2d89;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+#gripar {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.info-icons-row {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.info-block {
+  flex: 1;
+  min-width: 240px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info-block span {
+  color: #2b2d89;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.info-block strong {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.contact-button {
+  margin-top: 1.5rem;
+  background-color: #2b2d89;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-button:hover {
+  background-color: #1a1e7a;
+}
+#larD{
+    height: 47em;
+    width: 35em;
+    margin-left: 7em;
+    border-radius: 10px;
+}
+.large-doc{
+  background: radial-gradient(white,rgb(231, 245, 245));
+  height: 55em;
+ 
+}
+.large-grib{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+ padding-top: 6em;
+}
+.large-doc-img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 12px;
+ 
+    /* margin-left: 8em; */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.large-doc-text {
+  flex: 1;
+  max-width: 700px;
+}
+#ourh1{
+  font-size: 29px;
+  font-weight: bold;
+  color: #1a1e7a;
+  padding-bottom: 10px;
+  
+}
+#ourpa{
+  /* padding-left: 3em; */
+ font-size: 19px;
+ padding: 10px;
+  /* padding-bottom: 10px; */
+ /* font-weight: bold; */
+}
+#fafe{
+  color: blue;
+  font-size: 25px;
+}
+#Dnam{
+  height: 40em;
+  width: 30em;
+  border-radius: 15px;
+}
+/* <span id='fafe'><FaPaw/></span>  */
+.doc-name{
+  background-color: rgb(235, 246, 249);
+  height: 50em;
+}
+.name-grib {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-left: 5em;
+  /* margin-top: 3em; */
+  padding-top: 3em;
+}
+
+.name-img  {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  margin-left: 2em;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.doc-name-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+#our {
+  color: #2b2d89;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+#hosp{
+  color: blue;
+}
+#metpar{
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 1.5em;
+  padding-bottom: 10px;
+}
+#oupar {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+  line-height: 1.6;
+}
+
+.doc-icons-row {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.doc-block {
+  flex: 1;
+  min-width: 240px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.doc-block span {
+  color: #2b2d89;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.doc-block strong {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.contact-button1 {
+  margin-top: 1.5rem;
+  background-color: #2b2d89;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-button1:hover {
+  background-color: #1a1e7a;
+}
+
+ 
